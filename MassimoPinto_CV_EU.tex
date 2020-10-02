@@ -1,4 +1,4 @@
-\documentclass[english,nologo, notitle, noflag,Helvetica, totpages, booktabs]{europecv}
+\documentclass[english,nologo, notitle, noflag, totpages, booktabs]{europecv}
 %\documentclass[english,nologo, noflag,Helvetica, totpages, booktabs]{europasscv} 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{luainputenc}
@@ -9,9 +9,9 @@
 \setlength{\parskip}{\medskipamount}
 \setlength{\parindent}{0pt}
 \usepackage{babel}
-\usepackage[numbers]{natbib}
+%\usepackage[numbers]{natbib}
 \usepackage[unicode=true]{hyperref}
-\usepackage[dot]{bibtopic}
+%\usepackage[dot]{bibtopic}
 \usepackage{url}
 
 \makeatletter
@@ -23,8 +23,9 @@
 %\ecvaddress[Istituto Nazionale di Metrologia delle Radiazioni Ionizzanti\newline
 %ENEA Centro Ricerche Casaccia\newline Via Anguillarese, 301\newline Santa Maria di Galeria (RM)\newline 00060 Italy]%{Via Gennaro Cassiani, 10\newline 00155 Rome\newline Italy}
 \ecvhomepage{\url{http://massimopinto.github.io}}
-\ecvemail{massimo.pinto@me.com}
-\ecvprofessional{massimo.pinto@enea.it}
+%\ecvemail{\href{mailto:massimo.pinto@me.com}{massimo.pinto@me.com}}
+\ecvemail{\href{mailto:massimo.pinto@enea.it}{massimo.pinto@enea.it}}
+%\ecvprofessional{\href{mailto:massimo.pinto@enea.it}{massimo.pinto@enea.it}}
 %\ecvtelephone[+39 329 8383 529]{+39 06 3048 4662}
 %\ecvtelephone{+39 06 3048 4662}
 %\ecvskype{pintocop}
@@ -33,6 +34,7 @@
 \ecvbeforepicture{\raggedleft}
 %\ecvpicture[height=3cm]{Massimo2019}
 \ecvpicture[height=3cm]{Massimo2016}
+
 \ecvdate{\today}
 \ecvafterpicture{\ecvspace{-3.0cm}}
 \ecvpage{\thepage }
@@ -65,7 +67,7 @@
 
 \ecvitem{}{Research Scientist, Dosimetry Division, Italian National Institute of Ionizing Radiation Metrology}
 \ecvitem{Since 2020}{\emph{Ad interim} Contact person for the calibration services for radiation protection and diagnostic radiology dosimetry}
-\ecvitem{Since 2018}{Contact person for the \emph{proficiency testing} services for radiation protection and diagnostic radiology dosimetry}
+\ecvitem{Since 2018}{Contact person for the \emph{Inter-Laboratory Comparison (ILC)} services for radiation protection and diagnostic radiology dosimetry}
 \ecvitem{Since 2010}{Contact person for the primary standards of air kerma for radiation protection and diagnostic radiology dosimetry, and standards of absorbed dose to water in low dose-rate brachtherapy and kV x-rays dosimetry}
 
 \ecvsection{Research Interests}
@@ -115,9 +117,7 @@ radiations: experimental and theoretical studies” }
 \ecvmothertongue[10pt]{Italian}
 \ecvlanguageheader{($\star$)}
 \ecvlanguage{English}{\ecvCTwo}{\ecvCTwo}{\ecvCTwo}{\ecvCTwo}{\ecvCTwo}
-\ecvlastlanguage{French}{\ecvATwo}{\ecvBOne}{\ecvATwo}{\ecvATwo}{\ecvATwo}
-\ecvlanguagefooter{($\star$)}
-
+\ecvlastlanguage{French}{\ecvATwo}{\ecvBOne}{\ecvATwo}{\ecvATwo}{\ecvATwo}\ecvlanguagefooter{($\star$)}
 
 % Separare, magari, la parte ENEA-INMRI da quella che la precede.
 % \ecvsection{Highlighted International, non-EU research, teaching, and funding
@@ -155,6 +155,11 @@ radiations: experimental and theoretical studies” }
 %%%
 % International Missions
 %%%
+
+\ecvsection{International Appointments}
+\ecvitem{since 2020}{Italian representative on EURAMET's \href{https://www.euramet.org/technical-committees/tc-ir/}{Technical Committee on Ionizing Radiation (TC-IR)}}
+\ecvitem{since 2013}{Italian representative on the BIPM's \href{https://www.bipm.org/en/committees/cc/ccri/ccri(i)/}{Consultative Committee for Ionizing Radiation, Section I, Dosimetry}}
+
 \ecvsection{International expert missions}
 \ecvitem{2017}{National Institute of Standards, Cairo, Egypt, Training on CMC procedures related to ACAA priorities and peer-review of draft CMCs, Project: ``Building the Capacity of the Egyptian National Institute of Standards (NIS) in the Field of Metrology'', February 26th - March 2nd, funded by the European Union}
 
@@ -293,12 +298,16 @@ Plus Brachytherapy)'' }
 % Peer review experience
 \ecvsection{Ad hoc peer review}
 
-\ecvitem{in radiation dosimetry}{Metrologia, Medical Physics, Radiation Measurements, Journal of Contermporary Brachytherapy, International Journal of Environmental Research and Public Health, Nuclear Instruments and Methods A, Physica Medica}
-\ecvitem{in radiation biology}{Radiation Research, International Journal of Radiation Biology, British Journal of Radiology, Molecular Cancer Research, International Journal of Epidemiology, Journal of Pharmacy and Farmacology}
+\ecvitem{Audits}{IAEA Dosimetry Laboratories, Seibersdforf (2020) \href{https://www.euramet.org/research-innovation/search-research-projects/details/project/on-site-visit-by-peers-in-iaea/}{EURAMET project 1510}}
+\ecvitem{in radiation dosimetry journals}{Metrologia, Medical Physics, Radiation Measurements, Journal of Contermporary Brachytherapy, International Journal of Environmental Research and Public Health, Nuclear Instruments and Methods A, Physica Medica}
+\ecvitem{in radiation biology journals}{Radiation Research, International Journal of Radiation Biology, British Journal of Radiology, Molecular Cancer Research, International Journal of Epidemiology, Journal of Pharmacy and Farmacology}
 
 \ecvsection{Teaching Experience}
 
 % questo lo puoi scoprire dopo il corso alla IAEA di dicembre
+
+\ecvitem{2020}{Lecturer, University of Rome tor Vergata Medical Physics School, Radiation Dosimetry modules} 
+
 \ecvitem{2019}{Lecturer, Joint ICTP-IAEA Workshop on Uncertainty Estimations for Radiation Measurements in SSDLs and Hospitals, December 2019, International Center for Theoretical Physics, Trieste, Italy} 
 
 \ecvitem{2018}{Lecturer, First and Second Level Master's Course in Protection in Chemical,
@@ -493,7 +502,7 @@ research scientist blogger, and later on the multi-authored blog \href{http://ww
 Between 2005 and 2013 I have directed the Podcast for the scientific
 monthly journal \emph{Radiation Research} of the \href{http://www.radres.org}{Radiation Research Society}}
 
- \ecvitem[2.5ex]{Radio (in Italian)}{I am sporadically involved with the RAI Radio 3 programme \href{https://www.raiplayradio.it/programmi/wikiradio/}{Wikiradio}, which publishes daily audio documentaries. I have written and read the story of the \href{https://www.raiplayradio.it/audio/2019/05/WIKIRADIO---La-Convenzione-del-Metro--ba563aef-e71c-4e3f-a48c-cd7cb287901a.html}{Meter Convention} (on air on May 20st, 2019), and the story of the \href{https://www.raiplayradio.it/audio/2020/04/WIKIRADIO---Le-ragazze-del-radio--d1be44a8-6cdd-476e-9efa-d7a0285d2946.html}{Radium Girls}, on air on May 1st, 2020)}
+ \ecvitem[2.5ex]{Radio (in Italian)}{I am sporadically involved with the RAI Radio 3 programme \href{https://www.raiplayradio.it/programmi/wikiradio/}{Wikiradio}, which publishes daily audio documentaries. I have written and read the story of the \href{https://www.raiplayradio.it/audio/2019/05/WIKIRADIO---La-Convenzione-del-Metro--ba563aef-e71c-4e3f-a48c-cd7cb287901a.html}{Meter Convention} (on air on May 20, 2019), and the story of the \href{https://www.raiplayradio.it/audio/2020/04/WIKIRADIO---Le-ragazze-del-radio--d1be44a8-6cdd-476e-9efa-d7a0285d2946.html}{Radium Girls}, on air on May 1, 2020)}
 %\bibliography{DosimetryBibMax}
 
 %\begin{btSect}[plain]{DosimetryBibMax}
